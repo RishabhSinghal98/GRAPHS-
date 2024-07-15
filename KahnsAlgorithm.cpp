@@ -1,10 +1,7 @@
 
 class Solution
 {
-	public:
-	
-	
-	
+	public:	
 	vector<int> topoSort(int V, vector<int> adj[]) 
 	{
 	    

@@ -1,16 +1,11 @@
-vector<int> adj[V];
-        
-    // we are making a directed graph from the above input prerequisites
+class Solution {
+  public:
+  
     
-        for(int i=0;i<prerequisites.size();i++)
-        {
-            adj[prerequisites[i][1]].push_back(prerequisites[i][0]);
-            }
-       
+    bool isCyclic(int V, vector<int> adj[]) {
        
 // Intution : We are using Kahns Algorithms 
-// Here if we get the topologocal order that means there is no cycle and hence courses can be finished easily but if we dont get the topological oder it means there is a cycle and return false;
-        vector<int> visited(V,0);
+// Here if we get the topologocal order that means there is no cycle 
 	    vector<int> indegree(V,0);
 	    queue<int> q;
 	    vector<int> ans;
@@ -53,7 +48,9 @@ vector<int> adj[V];
 	    }
 	    
 	
-	  // if we got the topological order that we have stored in ans it means we completed the courses easily hence return ans i.e the topological sort of elements  .  
-	    if(ans.size()==V) return ans;
+	  if(ans.size()==V) return false; // if we got the topological order that we have stored in ans that means no cycle
 
-       return {}; // if no order return empty vector
+       return true; // if no order it means cycle
+
+    }
+};
