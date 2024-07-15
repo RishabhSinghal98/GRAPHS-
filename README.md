@@ -19,6 +19,6 @@ Follow The Codes in this Order:
 15. [FindEventualSafeStates.cpp](FindEventualSafeStates.cpp)
 16. [TopologicalSortUsingDFS.cpp](TopologicalSortUsingDFS.cpp)
 17. [KahnsAlgorithm.cpp --- Topological sort using BFS](KahnsAlgorithm.cpp)
-18. [DetectCycleinDirectedGraph.cpp](DetectCycleinDirectedGraph.cpp)
+18. [DetectCycleInDirectedGraph.cpp](DetectCycleinDirectedGraph.cpp)
 19. [CourseSchedule1.cpp](CourseSchedule1.cpp)
 20. [CourseSchedule2.cpp](CourseSchedule2.cpp)
