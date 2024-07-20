@@ -23,3 +23,5 @@ Follow The Codes in this Order:
 19. [CourseSchedule1.cpp](CoursesSchedule1.cpp)
 20. [CourseSchedule2.cpp](CoursesSchedule2.cpp)
 21. [Find Eventual Safe State BFS Approach](FindEventualSafeNodesBFS.cpp)
+22. [Shortest path in Directed Acyclic Graph](ShortestpathinDirectedAcyclicGraph.cpp)
+23. [Shortest path in Undirected Graph](ShortestPathinUndirectedGraph.cpp)
